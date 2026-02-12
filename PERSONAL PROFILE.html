@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yashwardhan Chourasia | Professional Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #0f172a;
+            color: #ffffff;
+        }
+
+        /* Navbar */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 10%;
+            background: #111827;
+            position: sticky;
+            top: 0;
+        }
+
+        nav h2 {
+            color: #38bdf8;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 25px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 15px;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #38bdf8;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .hero span {
+            color: #38bdf8;
+        }
+
+        .hero p {
+            margin-top: 15px;
+            font-size: 18px;
+            color: #cbd5e1;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 10px 25px;
+            background: #38bdf8;
+            color: #000;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        /* Section */
+        section {
+            padding: 70px 10%;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 32px;
+            color: #38bdf8;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        .skills ul {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            list-style: none;
+            gap: 15px;
+        }
+
+        .skills li {
+            background: #334155;
+            padding: 12px;
+            border-radius: 6px;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #111827;
+            font-size: 14px;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+    <h2>Yashwardhan</h2>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Hero -->
+<div class="hero">
+    <h1>Hello, I'm <span>Yashwardhan Chourasia</span></h1>
+    <p>Future Software Engineer | C Programmer | Web Developer | Problem Solver</p>
+    <a href="#contact" class="btn">Contact Me</a>
+</div>
+
+<!-- About -->
+<section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+            I am a passionate and dedicated programming enthusiast currently building strong
+            foundations in C Programming, Data Structures, and Web Development.
+            I enjoy solving logical problems and creating clean, efficient solutions.
+            My goal is to become a skilled Software Engineer and contribute to innovative projects.
+        </p>
+    </div>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="skills">
+    <h2>Technical Skills</h2>
+    <ul>
+        <li>C Programming</li>
+        <li>HTML & CSS</li>
+        <li>Data Structures</li>
+        <li>Problem Solving</li>
+        <li>Basic Java</li>
+        <li>Git & GitHub</li>
+    </ul>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>Event Registration Form</h3>
+        <p>Designed and developed a responsive registration form using HTML & CSS.</p>
+    </div>
+
+    <div class="card">
+        <h3>Electricity Bill Calculator</h3>
+        <p>Built a C program to calculate electricity charges based on slab rates.</p>
+    </div>
+
+    <div class="card">
+        <h3>Grade Calculation System</h3>
+        <p>Developed a grading system using conditional statements in C.</p>
+    </div>
+
+</section>
+
+<!-- Education -->
+<section id="education">
+    <h2>Education</h2>
+    <div class="card">
+        <h3>Bachelor of Engineering (Pursuing)</h3>
+        <p>Field: Computer Science / Related Field</p>
+        <p>Institute: SIT Nagpur</p>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+        <p>Email: yashc1515@gmail.com</p>
+        <p>LinkedIn: linkedin.com/in/yourprofile</p>
+        <p>Location: Nagpur, India</p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Yashwardhan Chourasia | Designed with Passion
+</footer>
+
+</body>
+</html>
